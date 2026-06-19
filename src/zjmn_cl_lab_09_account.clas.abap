@@ -11,7 +11,8 @@ CLASS zjmn_cl_lab_09_account DEFINITION
   PROTECTED SECTION.
   PRIVATE SECTION.
 
-    DATA: iban TYPE string.
+    DATA: iban       TYPE string,
+          lv_cliente TYPE string.
 
 ENDCLASS.
 
