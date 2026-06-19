@@ -1,0 +1,25 @@
+CLASS zjmn_cl_18_moto_logali DEFINITION ABSTRACT
+  PUBLIC
+*  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS set_hp IMPORTING iv_hp TYPE i.
+
+  PROTECTED SECTION.
+    METHODS set_max_speed ABSTRACT IMPORTING iv_max_speed TYPE i.
+
+  PRIVATE SECTION.
+    DATA: hp TYPE i.
+
+ENDCLASS.
+
+
+
+CLASS zjmn_cl_18_moto_logali IMPLEMENTATION.
+
+  METHOD set_hp.
+
+  ENDMETHOD.
+
+ENDCLASS.

@@ -1,0 +1,20 @@
+CLASS zjmn_cl_08_lion_logali DEFINITION INHERITING FROM zjmn_cl_07_animal_logali
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS walk REDEFINITION.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zjmn_cl_08_lion_logali IMPLEMENTATION.
+  METHOD walk.
+    rv_walk = 'The Lion Walks'.
+  ENDMETHOD.
+
+ENDCLASS.
